@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "linebreak-style": [
+      true,
+      "LF"
+    ]
+  }
+}

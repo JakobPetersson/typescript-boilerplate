@@ -1,5 +1,3 @@
-
-
 export function hello(): string {
-    return 'world';
+  return 'world';
 }
