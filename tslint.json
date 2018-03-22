@@ -16,6 +16,14 @@
     "linebreak-style": [
       true,
       "LF"
-    ]
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "object-literal-sort-keys": false
   }
 }
