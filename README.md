@@ -5,18 +5,18 @@
 ### Setup
 
 ```
-nvm install
-yarn
+nvm i
+npm i
 ```
 
 ### Test
 
 ```
-yarn test
+npm test
 ```
 
 ### Build
 
 ```
-yarn build
+npm run build
 ```
