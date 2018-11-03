@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "test:lint": "tslint --fix -p .",
+    "test:lint": "tslint --fix -p ./tsconfig.test.json",
     "test:unit": "jest",
     "test": "run-s test:*",
     "build": "rm -rf dist/ && tsc",

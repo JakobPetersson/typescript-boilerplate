@@ -25,5 +25,10 @@
       }
     ],
     "object-literal-sort-keys": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "**/*.json"
+    ]
   }
 }
