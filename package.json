@@ -34,8 +34,7 @@
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.[tj]sx?$",
     "roots": [
-      "<rootDir>/src/",
-      "<rootDir>/test/"
+      "<rootDir>/src/"
     ],
     "moduleFileExtensions": [
       "ts",
