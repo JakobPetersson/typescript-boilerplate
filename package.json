@@ -16,6 +16,7 @@
     "test:unit": "jest",
     "test": "npm run test:lint && npm run test:unit",
     "build": "rm -rf dist/ && tsc",
+    "precommit": "npm run test && npm run build && git add -A dist",
     "preversion": "npm run precommit",
     "postversion": "git push && git push --tags"
   },
@@ -47,7 +48,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test && npm run build && git add -A dist"
+      "pre-commit": "npm run precommit"
     }
   }
 }
