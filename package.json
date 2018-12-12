@@ -16,7 +16,6 @@
     "test:unit": "jest",
     "test": "npm run test:lint && npm run test:unit",
     "build": "rm -rf dist/ && tsc",
-    "precommit": "npm run test && npm run build && git add -A dist",
     "preversion": "npm run precommit",
     "postversion": "git push && git push --tags"
   },
@@ -26,6 +25,7 @@
     "jest": "23.6.0",
     "ts-jest": "23.10.4",
     "tslint": "5.11.0",
+    "tslint-react": "3.6.0",
     "typescript": "3.1.6"
   },
   "jest": {
@@ -45,5 +45,10 @@
       "json",
       "node"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test && npm run build && git add -A dist"
+    }
   }
 }

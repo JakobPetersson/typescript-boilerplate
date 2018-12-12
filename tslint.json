@@ -1,6 +1,7 @@
 {
   "extends": [
-    "tslint:recommended"
+    "tslint:recommended",
+    "tslint-react"
   ],
   "rules": {
     "indent": [
@@ -8,9 +9,20 @@
       "spaces",
       2
     ],
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "interface-over-type-literal": false,
+    "jsx-no-multiline-js": false,
     "linebreak-style": [
       true,
       "LF"
+    ],
+    "no-any": true,
+    "object-literal-shorthand": [
+      true,
+      "never"
     ],
     "object-literal-sort-keys": false,
     "quotemark": [
