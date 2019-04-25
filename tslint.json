@@ -36,7 +36,10 @@
         "multiline": "never",
         "singleline": "never"
       }
-    ]
+    ],
+    "variable-name": {
+      "options": "allow-leading-underscore"
+    }
   },
   "linterOptions": {
     "exclude": [
