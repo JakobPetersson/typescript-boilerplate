@@ -4,19 +4,19 @@
 
 ### Setup
 
-```
+```sh
 nvm i
 npm i
 ```
 
 ### Test
 
-```
+```sh
 npm test
 ```
 
 ### Build
 
-```
+```sh
 npm run build
 ```
