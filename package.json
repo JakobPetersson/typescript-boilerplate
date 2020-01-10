@@ -2,7 +2,7 @@
   "name": "@minukood/typescript-boilerplate",
   "version": "1.0.4",
   "description": "typescript-boilerplate",
-  "repository": "git@github.com:JakobPetersson/typescript-boilerplate.git",
+  "repository": "git@gitlab.com:minukood/typescript-boilerplate_.git",
   "author": "Jakob Petersson <github@jakobpetersson.se>",
   "license": "MIT",
   "private": false,
